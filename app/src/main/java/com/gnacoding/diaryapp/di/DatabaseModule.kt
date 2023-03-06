@@ -2,9 +2,9 @@ package com.gnacoding.diaryapp.di
 
 import android.content.Context
 import androidx.room.Room
-import com.gnacoding.diaryapp.connectivity.NetworkConnectivityObserver
-import com.gnacoding.diaryapp.data.database.ImagesDatabase
-import com.gnacoding.diaryapp.util.Constants.IMAGES_DATABASE
+import com.gnacoding.mongo.database.ImagesDatabase
+import com.gnacoding.util.Constants.IMAGES_DATABASE
+import com.gnacoding.util.connectivity.NetworkConnectivityObserver
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
