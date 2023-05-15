@@ -2,8 +2,8 @@ package com.gnacoding.mongo.repository
 
 import com.gnacoding.util.model.Diary
 import com.gnacoding.util.model.RequestState
-import io.realm.kotlin.types.ObjectId
 import kotlinx.coroutines.flow.Flow
+import org.mongodb.kbson.ObjectId
 import java.time.LocalDate
 import java.time.ZonedDateTime
 
